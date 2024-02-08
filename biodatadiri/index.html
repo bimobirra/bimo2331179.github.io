@@ -15,7 +15,7 @@
     <nav>
         <img class="logo" src="img/logo.jpg" alt="">
         <ul class="navsi">
-            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="#album">Albums</a></li>
             <li><a href="">Portfolio</a></li>
             <li><a href="">Blog</a></li>
@@ -36,34 +36,31 @@
     </main>
     </section>
 
+    <div class="spacer layer1"></div>
+
     <!--Album-->
     <section id="album">
-        <h1 class="judalbum">Albums</h1>
-        <main class="album">
-            <div class="album1"><img class="img1" src="img/album1.jpg" alt="">
-                <a class="tom1" href="">Learn More</a>
+        <h1 class="judalbum"> My Albums</h1>
+        <main class="albumcon">
+            <div class="album1"><a href=""><img class="img1" src="img/album1.jpg" alt=""></a>
             </div>
-            <div class="album2"><img class="img2" src="img/album2.jpg" alt="">
-                <a class="tom2" href="">Learn More</a>
+            <div class="album1"><a href=""><img class="img1" src="img/album2.jpg" alt=""></a>
             </div>
-            <div class="album3"><img class="img3" src="img/album3.jpg" alt="">
-                <a class="tom3" href="">Learn More</a>
-            </div>
+            <div class="album1"><a href=""><img class="img1" src="img/album3.jpg" alt=""></a>
+            </div>            
+
+
+            <button class="nambah" onclick="plusDivs(1)"> < </button>
+            <button class="kurang" onclick="plusDivs(-1)"> > </button>
         </main>
+
+
     </section>
 
-    <!--Sosial media-->
-    <section>
-        <h1 class="sosial">My Socials</h1>
-        <main id="socials-section">
-            <div class="containe-sosial">
-                <a href="https://instagram.com/bimo_birra" target="_blank"><i id="insta" class="fa-brands fa-instagram fa-8x"></i></a>
-                <a href="https://twitter.com/fakebimo" target="_blank"><i id="twit" class="fa-brands fa-x-twitter fa-8x"></i></a>
-                <a href="https://www.linkedin.com/in/bimo-birra-452895291/" target="_blank"><i id="linkedin" class="fa-brands fa-linkedin-in fa-8x"></i></a>
-            </div>
-        </main>
-    </section>
+    <div class="spacer layer2"></div>
 
     
+
+    <script src="script.js"></script>
 </body>
 </html>
